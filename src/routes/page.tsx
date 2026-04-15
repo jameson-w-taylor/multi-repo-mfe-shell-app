@@ -5,16 +5,20 @@ import RemoteFeature2 from 'remote_feature_2';
 
 const Index = () => (
   <div>
-    <div>Shell App</div>
-    <div>
-      <Suspense fallback={<div>Loading Feature 1...</div>}>
-        <RemoteFeature1 />
-      </Suspense>
-    </div>
-    <div>
-      <Suspense fallback={<div>Loading Feature 2...</div>}>
-        <RemoteFeature2 />
-      </Suspense>
+    <header className="app-header">
+      <h1 className="shell-app-header">Shell App</h1>
+    </header>
+    <div className="features-grid">
+      <div className="feature-card">
+        <Suspense fallback={<div>Loading Feature 1...</div>}>
+          <RemoteFeature1 />
+        </Suspense>
+      </div>
+      <div className="feature-card">
+        <Suspense fallback={<div>Loading Feature 2...</div>}>
+          <RemoteFeature2 />
+        </Suspense>
+      </div>
     </div>
   </div>
 );
