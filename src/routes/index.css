@@ -8,6 +8,8 @@ body {
     Microsoft YaHei,
     Arial,
     sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
 }
 
 p {
@@ -18,4 +20,22 @@ p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+}
+
+h1 {
+  color: #1a1a1a;
+}
+
+.shell-app-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #1a1a1a;
+}
+
+.feature-section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  background-color: #f9f9f9;
 }
