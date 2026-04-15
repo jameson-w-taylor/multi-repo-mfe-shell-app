@@ -5,7 +5,9 @@ import RemoteFeature2 from 'remote_feature_2';
 
 const Index = () => (
   <div>
-    <h1 className="shell-app-header">Shell App</h1>
+    <header className="app-header">
+      <h1 className="shell-app-header">Shell App</h1>
+    </header>
     <div className="features-grid">
       <div className="feature-card">
         <Suspense fallback={<div>Loading Feature 1...</div>}>
