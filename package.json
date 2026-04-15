@@ -10,7 +10,8 @@
     "new": "modern new",
     "lint": "biome check",
     "prepare": "simple-git-hooks",
-    "upgrade": "modern upgrade"
+    "upgrade": "modern upgrade",
+    "builder-fusion": "concurrently --names \"shell,feature1,feature2\" --prefix name --kill-others \"npm run dev\" \"cd ../multi-repo-mfe-remote-feature-1 && npm run dev\" \"cd ../multi-repo-mfe-remote-feature-2 && npm run dev\" "
   },
   "engines": {
     "node": ">=16.18.1"
@@ -29,17 +30,18 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.8.3",
     "@modern-js/app-tools": "0.0.0-canary-20260129131527",
     "@modern-js/tsconfig": "0.0.0-canary-20260129131527",
-    "@biomejs/biome": "1.8.3",
-    "typescript": "~5.0.4",
+    "@module-federation/modern-js-v3": "^2.3.2",
     "@types/jest": "~29.2.4",
     "@types/node": "~18.11.9",
     "@types/react": "^18.3.11",
     "@types/react-dom": "~18.3.1",
+    "concurrently": "^9.2.1",
     "lint-staged": "~13.1.0",
-    "simple-git-hooks": "^2.11.1",
     "rimraf": "^6.0.1",
-    "@module-federation/modern-js-v3":"^2.3.2"
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "~5.0.4"
   }
 }
