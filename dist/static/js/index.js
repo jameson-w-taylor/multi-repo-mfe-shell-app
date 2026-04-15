@@ -935,7 +935,7 @@ Promise.resolve().then(() => { $ReactRefreshRuntime$.refresh(module.id, module.h
 var __rspack_error = new Error();
 module.exports = new Promise(function(resolve, reject) {
 if(typeof remote_feature_1 !== "undefined") return resolve();
-__webpack_require__.l("http://localhost:3001/static/mf-manifest.json", function(event) {
+__webpack_require__.l("http://localhost:3001/mf-manifest.json", function(event) {
   if(typeof remote_feature_1 !== "undefined") return resolve();
   var errorType = event && (event.type === 'load' ? 'missing' : event.type);
   var realSrc = event && event.target && event.target.src;
@@ -7334,7 +7334,7 @@ __webpack_require__.hu = (chunkId) => ('' + chunkId + '.' + __webpack_require__.
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("7f64f2820905132f")
+__webpack_require__.h = () => ("aa7c8b26c619f295")
 })();
 // webpack/runtime/get_main_filename/update manifest
 (() => {
