@@ -9,12 +9,12 @@ const Index = () => (
       <h1 className="shell-app-header">Shell App</h1>
     </header>
     <div className="features-grid">
-      <div className="feature-card">
+      <div className="feature-card feature-card-blue">
         <Suspense fallback={<div>Loading Feature 1...</div>}>
           <RemoteFeature1 />
         </Suspense>
       </div>
-      <div className="feature-card">
+      <div className="feature-card feature-card-green">
         <Suspense fallback={<div>Loading Feature 2...</div>}>
           <RemoteFeature2 />
         </Suspense>

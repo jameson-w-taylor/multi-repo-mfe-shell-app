@@ -39,7 +39,7 @@ h1 {
   font-weight: 600;
   margin: 0;
   padding: 24px 40px;
-  color: #ffffff;
+  color: #F00606;
   letter-spacing: 0.5px;
 }
 
@@ -64,6 +64,14 @@ h1 {
 
 .feature-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card-blue {
+  background-color: #0835EC;
+}
+
+.feature-card-green {
+  background-color: #5CB133;
 }
 
 .feature-card h1 {
