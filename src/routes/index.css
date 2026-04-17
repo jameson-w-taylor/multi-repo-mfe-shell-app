@@ -66,14 +66,6 @@ h1 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.feature-card-blue {
-  background-color: #0835EC;
-}
-
-.feature-card-green {
-  background-color: #5CB133;
-}
-
 .feature-card h1 {
   margin-top: 0;
   margin-bottom: 16px;
